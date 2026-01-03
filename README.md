@@ -14,9 +14,7 @@ Ele permite funcionalidades básicas de cadastro e gerenciamento de dados de fun
 ✔ Python – Linguagem principal do backend
 
 ✔ Django – Framework web de alto nível que facilita o desenvolvimento rápido, seguro e organizado de aplicações web seguindo o padrão MVC/MTV. 
-
 ✔ HTML / CSS – Estrutura de apresentação das páginas
-
 ✔ Banco de Dados SQLite – Banco leve para persistência de dados (default do Django)
 
 
@@ -26,16 +24,12 @@ Ele permite funcionalidades básicas de cadastro e gerenciamento de dados de fun
 O projeto segue a estrutura típica de um app Django:
 
 📦 Projeto-Django---Funcionario
+
 ├── manage.py              # Script de execução e gerenciamento
-
 ├── config/                # Configurações Django (settings, urls, wsgi)
-
 ├── website/               # Aplicação principal com lógica de funcionários
-
 ├── requirements.txt       # Dependências do projeto
-
 ├── .gitignore             # Arquivos ignorados pelo Git
-
 └── db.sqlite3             # Banco de dados (SQLite)
 
 Essa divisão facilita a organização do código e escalabilidade do projeto. 
