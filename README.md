@@ -12,8 +12,11 @@ Ele permite funcionalidades básicas de cadastro e gerenciamento de dados de fun
 🛠️ 2. Tecnologias Utilizadas
 
 ✔ Python – Linguagem principal do backend
+
 ✔ Django – Framework web de alto nível que facilita o desenvolvimento rápido, seguro e organizado de aplicações web seguindo o padrão MVC/MTV. 
+
 ✔ HTML / CSS – Estrutura de apresentação das páginas
+
 ✔ Banco de Dados SQLite – Banco leve para persistência de dados (default do Django)
 
 
