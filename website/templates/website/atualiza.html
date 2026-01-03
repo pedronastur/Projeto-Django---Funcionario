@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Editar Funcionário</title>
+</head>
+<body>
+
+<h1>Editar Funcionário</h1>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Atualizar</button>
+</form>
+
+<a href="{% url 'website:lista_funcionarios' %}">Voltar</a>
+
+</body>
+</html>

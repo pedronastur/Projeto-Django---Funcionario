@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Funcionários</title>
+</head>
+<body>
+<h1>Lista de Funcionários</h1>
+
+<a href="{% url 'website:cadastra_funcionario' %}">Cadastrar Novo</a>
+
+<table border="1">
+    <tr>
+        <th>Nome</th>
+        <th>CPF</th>
+        <th>Remuneração</th>
+        <th>Ações</th>
+    </tr>
+    {% for funcionario in funcionarios %}
+    <tr>
+        <td>{{ funcionario.nome }} {{ funcionario.sobrenome }}</td>
+        <td>{{ funcionario.cpf }}</td>
+        <td>{{ funcionario.remuneracao }}</td>
+        <td>
+            <a href="{% url 'website:atualiza_funcionario' funcionario.id %}">Editar</a>
+            <a href="{% url 'website:deleta_funcionario' funcionario.id %}">Excluir</a>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>
