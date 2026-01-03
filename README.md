@@ -48,7 +48,7 @@ O uso do Django permite:
 
 ✅ Organização pelo padrão MTV (Model-Template-View), facilitando manutenção e expansão. 
 ✅ Utilização do ORM para manipular banco de dados sem SQL explícito. 
-✅ Sistema de administração pronto para uso. 
+✅ Sistema de administração pronto para uso.
 
 Essas características tornam o Django ideal para sistemas como esse de gerenciamento de dados.
 
@@ -75,14 +75,13 @@ python manage.py migrate
 python manage.py runserver
 
 
-
 📈 7. Possíveis Melhorias Futura
 
 ➡️ Implementar autenticação de usuários para controlar acesso ao sistema.
 ➡️ Adicionar filtros e pesquisa de funcionários por nome ou setor.
 ➡️ Criar um dashboard com gráficos/estatísticas.
 ➡️ Realizar deploy em produção (Heroku, PythonAnywhere, Render etc.). 
-Medium
+
 
 💡 8. Conclusão
 
